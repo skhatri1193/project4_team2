@@ -90,8 +90,8 @@ Predict survival time (continuous variable).
 
 The residuals showed patterns, suggesting the linear model struggled to capture the complexity of survival time predictions.
 
-![residualplot](Visualizations\linear_residual_plot.png)
-![regressionplot](Visualizations\logistic_regression_curve.png)
+![residualplot](https://raw.githubusercontent.com/skhatri1193/project4_team2/main/Visualizations/linear_residual_plot.png)
+![regressionplot](https://raw.githubusercontent.com/skhatri1193/project4_team2/main/Visualizations/logistic_regression_curve.png)
 
 ---
 
@@ -112,7 +112,9 @@ Methodology
     Tool: KerasTuner was used to optimize hyperparameters for the neural network model.
     Performance Metrics:
         Best Validation Accuracy: 0.893
-        Total Elapsed Time: 3 minutes 24 seconds![autoparams](Challenges\project4_team2\Visualizations\auto_params.png)
+        Total Elapsed Time: 3 minutes 24 seconds
+
+![autoparams](Visualizations\auto_params.png)
 
 alt text
 
@@ -186,13 +188,13 @@ Optimization Attempts and Results
 ### Model Evaluation
 
 Loss Curve
-![losscurve](Visualizations\model_loss.png)
+![losscurve](Visualizations/model_loss.png)
 alt text
 
     Training Loss: The plot shows the model loss during training and validation over the course of 20 epochs. The blue line represents the training loss, which starts high and then decreases rapidly over the first few epochs before leveling off. The orange line represents the validation loss, which also starts high and decreases over time, but not as dramatically as the training loss. The overall trend shows that the model is learning effectively, with the training loss and validation loss both declining as the number of training epochs increases.
 
 Accuracy Curve
-![modelaccuracy](Visualizations\model_accuracy.png)
+![modelaccuracy](Visualizations/model_accuracy.png)
 alt text
 
 Training Accuracy: The image shows a plot of model accuracy over multiple epochs. There are two lines on the plot:
